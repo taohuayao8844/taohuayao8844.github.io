@@ -15,6 +15,7 @@ export const Socials: Record<string, Record<string, string>> = {
 	github: { url: 'https://github.com/taohuayao8844/taohuayao8844.github.io' },
 	weibo: { url: 'https://weibo.com/u/5920416195' },
 	bilibili: { url: 'https://space.bilibili.com/396104992?spm_id_from=333.1007.0.0' },
+	friend:{url:'https://sysnow.xyz/'}
 };
 
 //评论实现
