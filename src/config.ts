@@ -14,15 +14,17 @@ export const PageSize = 15;
 export const Socials: Record<string, Record<string, string>> = {
 	github: { url: 'https://github.com/taohuayao8844/taohuayao8844.github.io' },
 	weibo: { url: 'https://weibo.com/u/5920416195' },
-	bilibili: { url: 'https://space.bilibili.com/396104992?spm_id_from=333.1007.0.0' },
-	friend:{url:'https://sysnow.xyz/'}
+	bilibili: {
+		url: 'https://space.bilibili.com/396104992?spm_id_from=333.1007.0.0',
+	},
+	friend: { url: 'https://sysnow.xyz/' },
 };
 
 //评论实现
 // doc: https://giscus.app
 // data-theme is auto changed between noborder_light / noborder_gray
 export const GiscusConfig: Record<string, string> = {
-	'data-repo': "taohuayao8844/taohuayao8844.github.io",
+	'data-repo': 'taohuayao8844/taohuayao8844.github.io',
 	'data-repo-id': 'R_kgDOLgobXQ',
 	'data-category': 'Q&A',
 	'data-category-id': 'DIC_kwDONQWpx84CkVG5',
