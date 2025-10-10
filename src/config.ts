@@ -2,9 +2,9 @@ import type { PostHideElements } from '~/content/config';
 
 export const Site = 'https://taohuayao8844.github.io';
 export const SiteLanguage = 'zh';
-export const SiteTitle = '桃花妖❀的博客';
+export const SiteTitle = 'ZeroPointNine站';
 export const SiteDescription = '叹隙中驹，石中火，梦中身';
-export const FooterDescription = '一名双非本科的普通通信工程专业学生';
+export const FooterDescription = '浙ICP备2025202341号';
 export const AdminName = 'ZERO_POINT_NINE';
 export const PageSize = 15;
 

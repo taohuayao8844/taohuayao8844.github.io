@@ -1,22 +1,28 @@
 ---
-import { FooterDescription, Hide } from '~/config';
+// 确保导入了 AdminName 和 FooterDescription
+import { AdminName, FooterDescription, Hide } from '~/config';
 ---
 
 <footer class="mt-[3dvh] text-center lg:mt-[4dvh]" transition:persist>
-	{!Hide.includes('footerDescription') && <p class="mb-[1dvh] lg:mb-[2dvh]">{FooterDescription}</p>}
-	<p class="text-neutral-700 opacity-75 dark:text-neutral-300">
-		&copy; {new Date().getFullYear()} Ladit. Powered by <a
-			class="underline"
-			href="https://astro.build"
-			target="_blank"
-			rel="noopener"
-			aria-label="Read more about Astro">Astro</a
-		>. <a
-			class="underline"
-			href="https://github.com/ladit/astro-blog-zozo"
-			target="_blank"
-			rel="noopener"
-			aria-label="Read more about this theme">Theme</a
-		> by Ladit.
-	</p>
+	
+	{!Hide.includes('footerDescription') && (
+		<p class="mb-[1dvh] lg:mb-[2dvh] text-neutral-700 opacity-75 dark:text-neutral-300">
+            {/* 1. 版权信息：© 年份 + 管理员名称/备案主体 */}
+            &copy; {new Date().getFullYear()} {AdminName}
+            
+            {/* 2. 分隔符 */}
+            &nbsp;|&nbsp; 
+            
+			{/* 3. 带链接和下划线的 ICP 备案号 */}
+			<a 
+                href="https://beian.miit.gov.cn/" 
+                target="_blank" 
+                rel="noopener"
+                class="underline"
+            >
+				{FooterDescription}
+			</a>
+		</p>
+	)}
+    {/* 4. 已移除所有 Powered by Astro, Theme by Ladit 等信息 */}
 </footer>
