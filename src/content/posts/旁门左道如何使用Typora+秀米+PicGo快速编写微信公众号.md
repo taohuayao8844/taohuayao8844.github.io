@@ -1,6 +1,6 @@
 ---
-title: 使用Typora+秀米+PicGo图床快速编写微信公众号
-description: 传统秀米的时代已经过去了
+title: 旁门左道之使用Typora+秀米+PicGo图床快速编写微信公众号
+description: 利用gitee快速搭建图床
 date: 2025-10-14T19:44:00+08:00
 tags:
       - 推送

@@ -1,11 +1,14 @@
 ---
-title: HAL库学习心得
-description: 稍微总结一下
+
+title: 电赛之HAL库学习心得
+description: 枚举了自己学习hal库的一些模式配置，基于F407zet6
 date: 2025-11-28T22:28:00+08:00
 tags:
   - HAL
   - 电赛
 ---
+
+
 
 # 整体理解
 
