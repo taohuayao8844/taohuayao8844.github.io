@@ -1,10 +1,13 @@
 ---
 title: 信号之AM—DSB及三种解调方式总结与原理分析
+slug: xin-am
 description: 稍微总结了一下
 date: 2025-11-11T12:28:00+08:00
+hidden: true
 tags:
   - 调制
   - 电赛
+  - hidden
 ---
 
 - 常规 AM（DSB-AM）——常规双边带幅度调制  

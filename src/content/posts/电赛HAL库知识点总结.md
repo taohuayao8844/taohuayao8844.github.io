@@ -1,11 +1,14 @@
 ---
 
-title: 电赛之HAL库学习心得
+title: 电赛HAL库学习心得
+slug: dian-hal
 description: 枚举了自己学习hal库的一些模式配置，基于F407zet6
 date: 2025-11-28T22:28:00+08:00
+hidden: true
 tags:
   - HAL
   - 电赛
+  - hidden
 ---
 
 
